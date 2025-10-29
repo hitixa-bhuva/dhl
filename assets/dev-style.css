@@ -172,3 +172,81 @@
     .card-body {
       padding: 25px;
     }
+
+    /* shipment tracking */
+       :root {
+      --dhl-yellow: #ffd700;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f6f8fb;
+    }
+    .dhl-brand img{
+      width: 350px;
+    }
+    .status-badge {
+      background: #fff6d9;
+      color: #8a5a00;
+      border: 1px solid rgba(0,0,0,0.04);
+    }
+    .timeline-event {
+      position: relative;
+      padding-left: 2rem;
+      padding-bottom: 1.5rem;
+      border-left: 3px solid #e9ecef;
+    }
+    .timeline-event:last-child {
+      border-left-color: transparent;
+      padding-bottom: 0;
+    }
+    .timeline-icon {
+      position: absolute;
+      left: -8px;
+      top: 6px;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      border: 3px solid #fff;
+      box-shadow: 0 0 0 3px rgba(0,0,0,0.03);
+    }
+    .icon-delivered { background: #16a34a; }
+    .icon-intransit { background: #0ea5e9; }
+    .icon-processed { background: #f59e0b; }
+    .piece-badge {
+      background: #ebeff4;
+      padding: 0.5rem 0.75rem;
+      border-radius: 0.5rem;
+      font-weight: 600;
+      font-size: 0.875rem;
+    }
+    .proof-link {
+      background: #fff8f0;
+      border: 1px solid #ffe8c7;
+      color: #b25a00;
+      padding: 0.5rem 0.75rem;
+      border-radius: 0.5rem;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.875rem;
+    }
+    .text-warning {
+      --bs-text-opacity: 1;
+      color: #f2b600bd !important;
+    }
+    .proof-link:hover {
+      background: #ffedd5;
+      color: #b25a00;
+    }
+    .map-placeholder {
+      border:2px dashed #ffb300; border-radius:12px; height:250px; display:flex; align-items:center; justify-content:center; background: linear-gradient(180deg, #fff8e16e, #ffefc205);
+    }
+    .border-warning{
+    --bs-border-opacity: 1;
+    border-color: #d9b3404d !important;
+    }
+
+    .map-placeholder .city-name{
+      font-size:1.5rem; color:#d32f2f; letter-spacing:1px;
+    }
