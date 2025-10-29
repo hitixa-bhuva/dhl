@@ -250,3 +250,11 @@
     .map-placeholder .city-name{
       font-size:1.5rem; color:#d32f2f; letter-spacing:1px;
     }
+    .main-logo{
+      display: flex;
+      justify-content: center;
+      margin-bottom: 10px;
+    }
+    .main-logo img{
+      width: 300px;
+    }
